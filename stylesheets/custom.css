@@ -1,0 +1,237 @@
+body {
+  font-family: 'EB Garamond', serif;
+}
+
+div.row.content {
+  padding-top: 2em;
+}
+
+div.content.text {
+  width: 100%;
+  text-align: center;
+  padding-top: 1em;
+  font-size: 1.4em;
+}
+
+.logo {
+  background-image: url('../images/instrument_logo_black.png');
+  background-size: 250px 125px;
+  background-repeat: no-repeat;
+  height: 125px;
+  width: 250px;
+}
+
+div.content.image {
+  background-image: url('../images/read_books.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 320px;
+}
+
+h2, h3 {
+  font-family: 'EB Garamond', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul.tour-dates li {
+  list-style-type: none;
+  font-family: 'EB Garamond', serif;
+  padding-bottom: 0.8em;
+}
+
+ul.tour-dates li a {
+  color: #CA6219;
+}
+
+ul.nav {
+  padding-left: 1em;
+}
+
+ul li.nav {
+  list-style-type: none;
+  font-family: 'EB Garamond', serif;
+  padding-bottom: 1.5em;
+  font-size: 1.5em;
+}
+
+ul li.nav a {
+  color: #000000;
+}
+
+ul li.nav a:hover {
+  color: #CA6219;
+}
+
+h2.tour-dates,
+h2.news {
+  text-align: center;
+}
+
+@media only screen and (max-width:64.063em) {
+  h2.tour-dates {
+    padding: 1em 0 0 0;
+  }
+
+  ul.tour-dates {
+    text-align: center;
+  }
+
+  div.tour-dates {
+    text-align: center;
+  }
+
+  div.news {
+    text-align: center;
+  }
+}
+
+ul.tour-dates {
+  padding-left: 0em;
+}
+
+ul.sub-nav {
+  text-align: center;
+  padding-top: 1em;
+}
+
+ul.sub-nav li {
+  display: inline;
+  font-family: 'EB Garamond', serif;
+  padding-right: 2em;
+  font-size: 1.2em;
+}
+
+ul.sub-nav li a {
+  color: #CA6219;
+}
+
+ul.sub-nav li a.social {
+  padding-right: 1em;
+}
+
+span,
+div {
+  font-family: 'EB Garamond', serif;
+}
+
+div.imprint {
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+div.imprint a {
+  color: #000000;
+}
+
+a.menu-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
+  position: relative;
+  top: 4em;
+  right: 1em;
+}
+
+a.menu-icon span {
+  display: block;
+  width: 1.3rem;
+  -webkit-box-shadow: 1px 0px 1px 1px #000, 1px 7px 1px 1px #000, 1px 14px 1px 1px #000;
+  box-shadow: 0 0px 0 2px #000, 0 9px 0 2px #000, 0 18px 0 2px #000;
+}
+
+.inner-wrap {
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  width: 100%;
+  -webkit-transition: -webkit-transform 500ms ease;
+  -moz-transition: -moz-transform 500ms ease;
+  -ms-transition: -ms-transform 500ms ease;
+  -o-transition: -o-transform 500ms ease;
+  transition: transform 500ms ease;
+}
+
+.move-left {
+  -webkit-transform: translate3d(-15.625rem, 0, 0);
+  -moz-transform: translate3d(-15.625rem, 0, 0);
+  -ms-transform: translate3d(-15.625rem, 0, 0);
+  -o-transform: translate3d(-15.625rem, 0, 0);
+  transform: translate3d(-15.625rem, 0, 0);
+}
+
+.move-left .exit-off-canvas {
+  -webkit-backface-visibility: hidden;
+  transition: background 300ms ease;
+  cursor: pointer;
+  box-shadow: -4px 0 4px rgba(0, 0, 0, 0.5), 4px 0 4px rgba(0, 0, 0, 0.5);
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1002;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.right-off-canvas-menu {
+  -webkit-backface-visibility: hidden;
+  width: 15.625rem;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  overflow-y: auto;
+  background: #FFFFFF;
+  z-index: 1001;
+  box-sizing: content-box;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0);
+  -o-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  right: 0;
+}
+
+.right-off-canvas-menu * {
+  -webkit-backface-visibility: hidden;
+}
+
+ul.off-canvas-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.off-canvas-list li a {
+  display: block;
+  padding: 1.2rem 0 1.2rem 0.66667rem;
+  border-bottom: 1px solid #262626;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5em;
+  color: #000000;
+}
+
+ul.off-canvas-list li a:hover {
+  color: #CA6219;
+}
+
+
+body.contact a,
+body.press a {
+  color: #CA6219;
+}
+
+body.press a {
+  display: block;
+  padding-bottom: 1em;
+}
+
+.contact-block {
+  padding-bottom: 2em;
+}
