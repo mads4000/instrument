@@ -157,7 +157,7 @@ a.menu-icon span {
   transition: transform 500ms ease;
 }
 
-.move-left {
+.move-left > .inner-wrap {
   -webkit-transform: translate3d(-15.625rem, 0, 0);
   -moz-transform: translate3d(-15.625rem, 0, 0);
   -ms-transform: translate3d(-15.625rem, 0, 0);
@@ -236,4 +236,21 @@ body.press a {
 
 .contact-block {
   padding-bottom: 2em;
+}
+
+
+
+
+
+
+.off-canvas-wrap {
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.off-canvas-wrap.move-left {
+  min-height: 100%;
+  -webkit-overflow-scrolling: touch;
 }
