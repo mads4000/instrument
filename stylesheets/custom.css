@@ -133,6 +133,7 @@ a.menu-icon {
   height: 2.5rem;
   display: block;
   position: relative;
+  padding-top: 0.7em;
   top: 4em;
   right: 1em;
 }
@@ -140,6 +141,7 @@ a.menu-icon {
 a.menu-icon span {
   display: block;
   width: 1.3rem;
+  margin-left: 0.5em;
   -webkit-box-shadow: 1px 0px 1px 1px #000, 1px 7px 1px 1px #000, 1px 14px 1px 1px #000;
   box-shadow: 0 0px 0 2px #000, 0 9px 0 2px #000, 0 18px 0 2px #000;
 }
