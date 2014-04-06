@@ -109,9 +109,38 @@ ul.sub-nav li a {
   color: #CA6219;
 }
 
-ul.sub-nav li a.social {
-  padding-right: 1em;
+
+
+ul.sub-nav li a.social.fb {
+  background-image: url('../images/fb_logo_50.png');
+  padding-right: 1.5em;
+  padding-left: 0.7em;
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
 }
+
+ul.sub-nav li a.social.twitter {
+  background-image: url('../images/twitter_logo.png');
+  padding-right: 1.2em;
+  padding-left: 1.0em;
+  background-size: 31px 25px;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 31px;
+}
+
+ul.sub-nav li a.social.youtube {
+  background-image: url('../images/youtube_logo_48.png');
+  padding-right: 0.7em;
+  padding-left: 1.0em;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+}
+
 
 span,
 div {
