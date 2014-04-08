@@ -99,10 +99,11 @@ ul.sub-nav {
 }
 
 ul.sub-nav li {
-  display: inline;
+  display: inline-block;
   font-family: 'EB Garamond', serif;
   padding-right: 2em;
   font-size: 1.2em;
+  padding-bottom: 1.5em;
 }
 
 ul.sub-nav li a {
@@ -264,7 +265,7 @@ body.press a {
   color: #CA6219;
 }
 
-body.press a {
+body.press a.download {
   display: block;
   padding-bottom: 1em;
 }
