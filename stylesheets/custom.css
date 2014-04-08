@@ -119,6 +119,8 @@ ul.sub-nav li a.social.fb {
   background-repeat: no-repeat;
   height: 25px;
   width: 25px;
+  background-position: left center;
+  padding-bottom: 0.2em;
 }
 
 ul.sub-nav li a.social.twitter {
@@ -129,6 +131,8 @@ ul.sub-nav li a.social.twitter {
   background-repeat: no-repeat;
   height: 25px;
   width: 31px;
+  background-position: left center;
+  padding-bottom: 0.2em;
 }
 
 ul.sub-nav li a.social.youtube {
@@ -139,6 +143,8 @@ ul.sub-nav li a.social.youtube {
   background-repeat: no-repeat;
   height: 24px;
   width: 24px;
+  background-position: left center;
+  padding-bottom: 0.2em;
 }
 
 
